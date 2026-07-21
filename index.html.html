@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título otimizado para SEO -->
+    <title>DFL Engenharia | Automação Residencial, Elétrica e Climatização em Brasília</title>
+    <meta name="description" content="Especialistas em automação predial, instalações elétricas e segurança eletrônica em Brasília. Equipe técnica com CFT ativo.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dfl-dark': '#1f2937', 
+                        'dfl-orange': '#ea580c', 
+                        'dfl-gray': '#f3f4f6'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans antialiased text-gray-800 bg-gray-50 selection:bg-dfl-orange selection:text-white">
+
+    <!-- Hero Section -->
+    <header class="relative bg-dfl-dark text-white min-h-screen flex flex-col justify-center items-center text-center px-6 py-20 overflow-hidden">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/70 z-10"></div>
+        
+        <!-- IMAGEM DE CAPA APLICADA AQUI -->
+        <img src="./assets/capa_dfl.png" alt="Automação Inteligente" class="absolute inset-0 w-full h-full object-cover opacity-60 z-0">
+        
+        <div class="relative z-20 max-w-5xl mx-auto flex flex-col items-center -mt-10 md:-mt-24">
+            
+            <!-- LOGO OFICIAL APLICADA AQUI -->
+			<img src="./assets/logo-dfl.png" alt="Logo DFL Engenharia" class="h-40 md:h-64 w-auto mb-10 drop-shadow-2xl">
+            
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight tracking-tight">
+                Tecnologia, Conforto e Segurança <br class="hidden md:block"> em um só projeto.
+            </h1>
+            <p class="text-lg md:text-2xl font-light mb-12 text-gray-200 max-w-3xl">
+                Soluções integradas de Engenharia para residências e empresas em Brasília e Entorno.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center">
+                <a href="#contato" class="bg-dfl-orange hover:bg-orange-700 transition-colors text-white font-bold py-4 px-10 rounded-full text-lg shadow-lg flex items-center justify-center">
+                    SOLICITAR ORÇAMENTO AGORA
+                </a>
+                <a href="#servicos" class="bg-transparent border-2 border-white hover:bg-white/10 transition-colors text-white font-bold py-4 px-10 rounded-full text-lg flex items-center justify-center">
+                    CONHECER SERVIÇOS
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="py-24 px-6 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-dfl-dark mb-4">Nossos Serviços Especializados</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto text-lg">Projetos estruturados para quem não abre mão de qualidade, utilizando as melhores tecnologias do mercado.</p>
+            </div>
+            
+            <!-- Grid de Serviços Alinhado -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <!-- Card 1: Automação -->
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden flex flex-col h-full hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Automação Residencial" class="w-full h-48 object-cover">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold mb-4 text-dfl-dark">Automação Residencial e Predial</h3>
+                        <ul class="text-gray-600 space-y-2 mb-6 flex-grow text-sm">
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Projetos de Domótica e Casas Inteligentes</li>
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Controle de Iluminação e Criação de Cenas</li>
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Integração de Áudio, Vídeo e Home Theater</li>
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Automatização de Persianas e Climatização</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 2: Elétrica -->
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden flex flex-col h-full hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Instalações Elétricas" class="w-full h-48 object-cover">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold mb-4 text-dfl-dark">Instalações Elétricas</h3>
+                        <ul class="text-gray-600 space-y-2 mb-6 flex-grow text-sm">
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Execução de Projetos em Baixa Tensão (NBR 5410)</li>
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Montagem de Quadros de Distribuição (QDC)</li>
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Infraestrutura e Cabeamento Estruturado</li>
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Manutenção Preventiva e Correção de Falhas</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 3: Climatização -->
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden flex flex-col h-full hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://images.unsplash.com/photo-1620626011761-996317b8d101?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Climatização e Refrigeração" class="w-full h-48 object-cover">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold mb-4 text-dfl-dark">Refrigeração e Climatização</h3>
+                        <ul class="text-gray-600 space-y-2 mb-6 flex-grow text-sm">
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Instalação de Ar-Condicionado (Split, Cassete, VRF)</li>
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Cálculo de Carga Térmica para Ambientes</li>
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Plano de Manutenção (PMOC)</li>
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Limpeza Técnica e Higienização de Sistemas</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 4: Segurança -->
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden flex flex-col h-full hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Segurança Eletrônica" class="w-full h-48 object-cover">
+                    <div class="p-6 flex flex-col flex-grow">
+                        <h3 class="text-xl font-bold mb-4 text-dfl-dark">Segurança Eletrônica</h3>
+                        <ul class="text-gray-600 space-y-2 mb-6 flex-grow text-sm">
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Sistemas de CFTV e Câmeras de Monitoramento IP</li>
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Controle de Acesso (Biometria, Facial e TAG)</li>
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Instalação de Fechaduras Digitais Integradas</li>
+                            <li class="flex items-start"><span class="text-dfl-orange mr-2">✓</span> Alarmes Inteligentes com Acesso Remoto</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Extra -->
+            <div class="mt-16 text-center">
+                <a href="#contato" class="inline-block bg-dfl-dark hover:bg-gray-800 transition-colors text-white font-bold py-4 px-10 rounded-full text-lg shadow-md">
+                    FALAR COM UM ESPECIALISTA
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nova Seção: Profissionais / Autoridade -->
+    <section class="bg-dfl-gray py-20 px-6 border-y border-gray-200">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2 flex justify-center order-2 md:order-1">
+                <img src="./assets/tecnico-dfl.svg" alt="Equipe Técnica DFL Engenharia" class="w-full max-w-md drop-shadow-xl">
+            </div>
+            <div class="md:w-1/2 order-1 md:order-2">
+                <div class="inline-block bg-orange-100 text-dfl-orange font-bold px-4 py-1 rounded-full text-sm mb-4">
+                    Excelência Técnica
+                </div>
+                <h2 class="text-3xl md:text-4xl font-bold text-dfl-dark mb-6">Equipe Certificada e Qualificada</h2>
+                <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+                    Não entregamos sua obra na mão de amadores. A DFL Engenharia é formada por profissionais rigorosamente selecionados e registrados, todos com <strong>Conselho Federal dos Técnicos (CFT) ativo</strong>. 
+                </p>
+                <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                    Com vasta experiência em instalações prediais, industriais e residenciais de alto padrão em Brasília, nossa equipe garante uma execução limpa, dentro dos prazos estipulados e em total conformidade com as normas técnicas vigentes (NBRs). A sua segurança e o acabamento do seu projeto são inegociáveis.
+                </p>
+                <div class="grid grid-cols-2 gap-4 mb-8">
+                    <div class="flex items-center gap-2 font-semibold text-dfl-dark"><span class="text-2xl text-green-500">✓</span> Registro CFT Ativo</div>
+                    <div class="flex items-center gap-2 font-semibold text-dfl-dark"><span class="text-2xl text-green-500">✓</span> Obras no Prazo</div>
+                    <div class="flex items-center gap-2 font-semibold text-dfl-dark"><span class="text-2xl text-green-500">✓</span> Normas Técnicas</div>
+                    <div class="flex items-center gap-2 font-semibold text-dfl-dark"><span class="text-2xl text-green-500">✓</span> Acabamento Premium</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contato Section -->
+    <footer id="contato" class="relative bg-dfl-dark text-white py-20 px-6 overflow-hidden">
+        <div class="absolute inset-0 bg-black/80 z-10"></div>
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80" alt="Contato DFL" class="absolute inset-0 w-full h-full object-cover z-0 opacity-40">
+        
+        <div class="relative z-20 max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start text-center md:text-left gap-12 border-t-4 border-dfl-orange pt-12">
+            
+            <div class="md:w-1/3 flex flex-col items-center md:items-start">
+                
+                <!-- LOGO OFICIAL APLICADA AQUI -->
+                <img src="./assets/logo-dfl.png" alt="Logo DFL Engenharia" class="h-14 w-auto mb-6">
+                
+                <p class="text-gray-300 font-light text-sm leading-relaxed mb-6">
+                    Sistemas integrados que conversam entre si. A DFL entrega a solução completa para transformar tecnologia em conforto e eficiência no seu ambiente.
+                </p>
+            </div>
+            
+            <div class="md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 border-b border-gray-600 pb-2 inline-block">Fale Conosco</h3>
+                    <ul class="space-y-4 font-light text-gray-300">
+                        <li class="flex items-center justify-center md:justify-start gap-3">
+                            <span class="text-xl">📞</span> 
+                            <div>
+                                <a href="tel:+5561998356364" class="hover:text-dfl-orange transition-colors block">(61) 99835-6364</a>
+                                <a href="tel:+5561999980131" class="hover:text-dfl-orange transition-colors block">(61) 99998-0131</a>
+                                <a href="tel:+5561993232478" class="hover:text-dfl-orange transition-colors block">(61) 99323-2478</a>
+                            </div>
+                        </li>
+                        <li class="flex items-center justify-center md:justify-start gap-3 mt-4">
+                            <span class="text-xl">✉️</span> 
+                            <a href="mailto:contato.dflengenharia@outlook.com" class="hover:text-dfl-orange transition-colors">contato.dflengenharia@outlook.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 border-b border-gray-600 pb-2 inline-block">Área de Atendimento</h3>
+                    <p class="text-gray-300 font-light flex items-center justify-center md:justify-start gap-3">
+                        <span class="text-xl">📍</span> 
+                        Atendimento em todo o Distrito Federal (Brasília) e região do Entorno.
+                    </p>
+                    <div class="mt-8">
+                        <a href="https://wa.me/5561998356364?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento%20com%20a%20DFL%20Engenharia." target="_blank" class="bg-green-600 hover:bg-green-700 transition-colors text-white font-bold py-3 px-6 rounded-lg text-md shadow-md flex items-center justify-center gap-2">
+                            <span>💬</span> Chamar no WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
